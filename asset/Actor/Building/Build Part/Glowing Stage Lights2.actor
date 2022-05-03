@@ -1,0 +1,72 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2020_light_02.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_light_chairs5.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="60"/>
+					<SocketName value="4"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="110"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2020_light_02_blue.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="100"/>
+					<SocketName value="2"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="130"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2020_light_02_green.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="120"/>
+					<SocketName value="3"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="110"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2020_light_02_orange.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.6"/>
+					<roll value="90"/>
+					<SocketName value="1"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="120"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2020_light_02_pink.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.98232e-43 1.80275e+28 0" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2020_light_02.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2020_light_02_idle.anim"/>
+			<Anim Name="asset/Anim/g2020_light_02_rotate.anim"/>
+			<Anim Name="asset/Anim/g2020_light_02_up.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2020_light_02_rotate.anim" Channel="" TimeScale="1" Length="3.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

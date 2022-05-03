@@ -1,0 +1,92 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_wanglingzhanshi.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_3_1_4.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="3"/>
+					<roll value="0"/>
+					<SocketName value="Bone001"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_32_A.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_17_C.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_L_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_17_C.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.7"/>
+					<roll value="-3.46299"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0.697398"/>
+					<yaw value="25.2871"/>
+					<Position_Z value="0.0981227"/>
+					<pitch value="23.2578"/>
+					<Position_X value="0.341682"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_pet_wanglingzhanshi_hand.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.12245e-43 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_wanglingzhanshi_weapon.skin"/>
+				<Skin ChangeColor="2.10195e-44 1.10703e-42 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_wanglingzhanshi_head.skin"/>
+				<Skin ChangeColor="2.10195e-44 1.3004e-42 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_wanglingzhanshi_body.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_wanglingzhanshi_attack_01.anim"/>
+			<Anim Name="asset/Anim/g2021_wanglingzhanshi_attack_02.anim"/>
+			<Anim Name="asset/Anim/g2021_wanglingzhanshi_walk.anim"/>
+			<Anim Name="asset/Anim/g2021_wanglingzhanshi_daiji.anim"/>
+			<Anim Name="asset/Anim/g2021_wanglingzhanshi_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_wanglingzhanshi_attack_01.anim" Channel="" TimeScale="1" Length="2.266" Times="1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_wanglingzhanshi_attack_02.anim" Channel="" TimeScale="1" Length="1.7" Times="1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_wanglingzhanshi_shouji.anim" Channel="" TimeScale="1" Length="0.633" Times="1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_wanglingzhanshi_daiji.anim" Channel="" TimeScale="1" Length="1.366" Times="-1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_wanglingzhanshi_walk.anim" Channel="" TimeScale="1" Length="0.966" Times="-1"/>
+				<ActorScaleChange beginScale="0.5" endScale="0.5"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

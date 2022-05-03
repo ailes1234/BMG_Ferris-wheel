@@ -1,0 +1,174 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_chest_bone.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_chest_06.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 1.80347e-42 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_chest_02.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g1008_chest_ui_idle.anim"/>
+			<Anim Name="asset/Anim/g1008_chest_open.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1008_chest_ui_idle.anim" Channel="" TimeScale="1" Length="0.366" Times="-1"/>
+				<ActorScaleChange beginScale="0.7" endScale="0.7"/>
+			</Skill>
+			<Skill Name="open" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="3.05838"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_01.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="2.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="-0.155537"/>
+					<pitch value="-15.5"/>
+					<BeginTime value="0.4"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="6.47395"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_02.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<BeginTime value="0.12"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1.8"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="1"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_04.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="2.75"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="-1.2117"/>
+					<pitch value="-15.5"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="5.50937"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_03.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.7"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.383069"/>
+					<pitch value="0"/>
+					<BeginTime value="0.02"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="7.89348"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_05.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="4"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.13888"/>
+					<pitch value="0"/>
+					<BeginTime value="3"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="7.4998"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_06.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="2.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.837994"/>
+					<pitch value="-9"/>
+					<BeginTime value="3.2"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="7.58927"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_07.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.85"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.765451"/>
+					<pitch value="-15"/>
+					<BeginTime value="1.8"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="0.8"/>
+				</Effect>
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="11.1584"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Other/g2021_chest_09.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1.75"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.78009"/>
+					<pitch value="-15"/>
+					<BeginTime value="2.2"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1008_chest_open.anim" Channel="" TimeScale="1" Length="3.266" Times="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

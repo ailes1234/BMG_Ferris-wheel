@@ -1,0 +1,42 @@
+{
+  "data": {
+    "AI_attack": {
+      "chaseDistance": 0,
+      "enable": true
+    },
+    "AI_home": {
+      "homeSize": 0,
+      "outOfHome": "random"
+    },
+    "AI_patrol": {
+      "idle": {
+        "idleTime": {
+          "max": {
+            "value": 0
+          },
+          "min": {
+            "value": 0
+          }
+        }
+      },
+      "patrolDistance": 0,
+      "patrolMode": "randomPath"
+    },
+    "deadAction": {
+      "deathHideTime": {
+        "value": 60
+      },
+      "playDeadAction": "die_front"
+    },
+    "name": {
+      "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "97867b290477fc85dcd546fc88116a40",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.15"
+  }
+}

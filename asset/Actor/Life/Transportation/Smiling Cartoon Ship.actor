@@ -1,0 +1,133 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="part_body_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="ship.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="0 1 0.25098 1" SlaveName="1" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 8.87022e-43 3.46623e+30 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/part_body_01.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="part_flag_1" MasterName="part_flag">
+				<Skin ChangeColor="2.10195e-44 2.11344e-41 7.20161e+22 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/part_flag_01.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="part_front_1" MasterName="part_front">
+				<Skin ChangeColor="2.10195e-44 2.11344e-41 7.20161e+22 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/part_front_01.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="part_winds_1" MasterName="part_winds">
+				<Skin ChangeColor="2.10195e-44 2.11344e-41 7.20161e+22 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/part_winds_01.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="part_back_1" MasterName="part_back">
+				<Skin ChangeColor="2.10195e-44 2.11344e-41 7.20161e+22 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/part_back_01.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/part_body_01_attack01.anim"/>
+			<Anim Name="asset/Anim/part_body_01_stand01.anim"/>
+			<Anim Name="asset/Anim/part_body_01_walk01.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="aim1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="aim2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="aim3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_attack01.anim" Channel="upper" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_attack01.anim" Channel="upper" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="block1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="block2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="block3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="dig" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="drink" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="drink_end" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="eat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="eat_end" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="fly" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="fly_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="hitdown" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="" TimeScale="1" Length="0.9" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="jump1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="jump2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="jump3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="jump_attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="pistol_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="pistol_reload" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="pistol_shoot" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="0.433" Times="-1"/>
+			</Skill>
+			<Skill Name="run_attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="smg_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="smg_reload" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="smg_shoot" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="sneak" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="sprint" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="0.433" Times="1"/>
+			</Skill>
+			<Skill Name="swim" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="swim_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="lower" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="throw" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_stand01.anim" Channel="upper" TimeScale="1" Length="1.1" Times="1"/>
+			</Skill>
+			<Skill Name="walk" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/part_body_01_walk01.anim" Channel="lower" TimeScale="1" Length="0.633" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

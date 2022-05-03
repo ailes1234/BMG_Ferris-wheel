@@ -1,0 +1,105 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="mario_diuhuoqiu.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="character_brown_mario.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="01" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 2.01086e-42 2.21007e-10 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/mario_shenti_lanzong.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="face_01" MasterName="face">
+				<Skin ChangeColor="2.10195e-44 3.2356e-42 2.21007e-10 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/mario_face_lanzong.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="feet_01" MasterName="feet">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="-90"/>
+					<SocketName value="b_l_foot"/>
+					<Position_Y value="0.108479"/>
+					<yaw value="-180"/>
+					<Position_Z value="0"/>
+					<pitch value="8.14222e-13"/>
+					<FileName value="asset/Mesh/Actor_mesh/mario_zuojiao_lanzong.mesh"/>
+					<Position_X value="0.123326"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="-90"/>
+					<SocketName value="b_r_foot"/>
+					<Position_Y value="-0.106551"/>
+					<yaw value="180"/>
+					<Position_Z value="0"/>
+					<pitch value="-8.14222e-13"/>
+					<FileName value="asset/Mesh/Actor_mesh/mario_youjiao_lanzong.mesh"/>
+					<Position_X value="0.120202"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="hair_01" MasterName="hair">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="90"/>
+					<SocketName value="b_head"/>
+					<Position_Y value="0"/>
+					<yaw value="180"/>
+					<Position_Z value="0"/>
+					<pitch value="8.14222e-13"/>
+					<FileName value="asset/Mesh/Actor_mesh/mario_hat_lanzong.mesh"/>
+					<Position_X value="-1.24364"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="pants_01" MasterName="pants">
+				<Skin ChangeColor="2.10195e-44 3.05483e-42 2.21007e-10 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/mario_kuzi_lanzong.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/mario_diuhuoqiu.anim"/>
+			<Anim Name="asset/Anim/mario_dun.anim"/>
+			<Anim Name="asset/Anim/mario_tiao.anim"/>
+			<Anim Name="asset/Anim/mario_pao.anim"/>
+			<Anim Name="asset/Anim/mario_fangentou.anim"/>
+			<Anim Name="asset/Anim/boy_stand05.anim"/>
+			<Anim Name="asset/Anim/mario_tiao_xuanzhuan1.anim"/>
+			<Anim Name="asset/Anim/tiao_xuanzhuan_jiasu2.anim"/>
+			<Anim Name="asset/Anim/tiao_xuanzhuan_jiasu3_.anim"/>
+			<Anim Name="asset/Anim/tiao_xuanzhuan_junsu2.anim"/>
+			<Anim Name="asset/Anim/mario_tiao_xuanzhuan2.anim"/>
+			<Anim Name="asset/Anim/mario_tiao_xuanzhuan3.anim"/>
+			<Anim Name="asset/Anim/tiao_xuanzhuan_junsu3.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_diuhuoqiu.anim" Channel="" TimeScale="1" Length="1.533" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/boy_stand05.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="jumpWithIdle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_tiao.anim" Channel="" TimeScale="1" Length="1.533" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithMoveAndSprint" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_tiao_xuanzhuan1.anim" Channel="" TimeScale="1" Length="0.266" Times="1"/>
+			</Skill>
+			<Skill Name="rotateWithIdleAndMoveJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/tiao_xuanzhuan_jiasu2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+			<Skill Name="skidWithSprintAndSprintJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/tiao_xuanzhuan_jiasu3_.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="rotateWithSprintJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/tiao_xuanzhuan_junsu2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+			<Skill Name="aerialLandingWithMoveJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/tiao_xuanzhuan_junsu3.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="rotateWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_tiao_xuanzhuan2.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+			<Skill Name="aerialLandingWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_tiao_xuanzhuan3.anim" Channel="" TimeScale="1" Length="1.2" Times="1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_pao.anim" Channel="" TimeScale="1" Length="0.433" Times="-1"/>
+			</Skill>
+			<Skill Name="sneak" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mario_dun.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,161 @@
+﻿{
+  "useNewFirstViewer": true,
+  "automatch": false,
+  "useNewUI":true,
+  "bagCap": 9,
+  "canJoinMidway": false,
+  "defaultMap": "map001",
+  "forcePickBlock": true,
+  "hideCloud": false,
+  "initPos": {
+    "x": 28,
+    "y": 54,
+    "z": 34
+  },
+  "isTimeStopped": true,
+  "jumpControlConfig": {
+    "jumpPushImage": {
+      "name": "jump_imagesets/icon_jump_act.png"
+    },
+    "jumpImage": {
+      "name": "jump_imagesets/icon_jump_nor.png"
+    },
+  "useGroup": "_imagesets_",
+    "area": [
+      [
+        0,
+        100
+      ],
+      [
+        0,
+        60
+      ],
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        200
+      ]
+    ]
+  },
+  "maxPlayers": 6,
+  "minPlayers": 1,
+  "moveStateConfig": {
+    "isShow": false
+  },
+  "nowTime": 0,
+  "oneDayTime": 600,
+  "playerCfg": "myplugin/player1",
+  "playTime": -1,
+  "replay": false,
+  "reportTime": 1200,
+  "skillJack": {
+    "AJackArea": [
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        120
+      ],
+      [
+        0,
+        120
+      ]
+    ],
+    "hideBJack": true,
+    "lineSkills": [
+      {
+        "hAlign": 2,
+        "itemSpace": 30,
+        "jackNum": 2,
+        "jackSize": 80,
+        "vAlign": 1,
+        "xOffset": -50,
+        "yOffset": 0
+      },
+      {
+        "hAlign": 1,
+        "itemSpace": 30,
+        "jackNum": 4,
+        "jackSize": 80,
+        "vAlign": 0,
+        "xOffset": 0,
+        "yOffset": 50
+      }
+    ],
+    "sectorSkills": [
+      {
+        "deltaAngle": 45,
+        "jackNum": 3,
+        "jackSize": 88,
+        "radius": 170,
+        "startAngle": 270
+      }
+    ]
+  },
+  "team": [],
+  "teammateHurt": false,
+  "useNewQuadConfig": true,
+  "personalShop": false,
+  "vars": {
+    "__OBJ_TYPE": [],
+    "entity": [],
+    "global": [],
+    "item": [],
+    "map": [],
+    "region": [],
+    "team": []
+  },
+  "waitGoTime": 0,
+  "waitPlayerTime": 0,
+  "waitStartTime": 0,
+  "personalSettingUI":{
+    "luminance":false,
+    "horizon":false,
+    "volume":true,
+    "sensitive":true,
+    "guiSize":false,
+    "controlMode":true,
+    "jumpSneakState":false,
+    "imageQuality":true
+  },
+  "dragControlConfig": {
+    "useDragControl": true
+  },
+  "ignoreEmptyStartPos": false,
+  "qualityLevelData": {
+        "maxLevel": [
+            2,
+            0,
+            0.6,
+            0.68,
+            0.00132,
+            3,
+            1.4,
+            1,
+            1,
+            0.22,
+            -0.00132,
+            0.43,
+            1,
+            0,
+            0.1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            0,
+            2,
+            1.8
+        ]
+    }
+}

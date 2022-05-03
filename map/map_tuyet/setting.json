@@ -1,0 +1,25 @@
+{
+  "canAttack": true,
+  "canBreak": true,
+  "entity": [],
+  "region": [],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Sky03_right.png",
+        "@asset/Sky03_left.png",
+        "@asset/Sky03_top.png",
+        "@asset/Sky03_bottom.png",
+        "@asset/Sky03_back.png",
+        "@asset/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512
+}

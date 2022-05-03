@@ -1,0 +1,64 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="seat.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_fru_change.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<StaticMesh LocalAlpha="0.3">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="seat_bone"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2020_converter_01_01.mesh"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="seat_bone"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2020_converter_01_02.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/seat_idle.anim"/>
+			<Anim Name="asset/Anim/jiajuhuangdong.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/seat_idle.anim" Channel="" TimeScale="1" Length="2.733" Times="-1"/>
+			</Skill>
+			<Skill Name="up" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/jiajuhuangdong.anim" Channel="" TimeScale="1" Length="0.466" Times="-1"/>
+			</Skill>
+			<Skill Name="down" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Life/g2020_fur_smoke.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/seat_idle.anim" Channel="" TimeScale="1" Length="1.233" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

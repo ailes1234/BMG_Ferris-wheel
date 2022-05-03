@@ -1,0 +1,88 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="daichibanglaohu.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_ride_lion.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_L_Foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.043592"/>
+					<pitch value="0"/>
+					<Position_X value="-0.0288181"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_jiaotuowei.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.04"/>
+					<pitch value="0"/>
+					<Position_X value="-0.02"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_jiaotuowei.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_L_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.013439"/>
+					<pitch value="0"/>
+					<Position_X value="0.101211"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_jiaotuowei.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0457085"/>
+					<pitch value="0"/>
+					<Position_X value="0.0868592"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_jiaotuowei.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.5"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Spine"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0817895"/>
+					<pitch value="0"/>
+					<Position_X value="0.159036"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_lion_wind.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.02436e-43 2.21007e-10 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/daichibanglaohu.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/daichibanglaohu_daiji.anim"/>
+			<Anim Name="asset/Anim/daichibanglaohu_paobu.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/daichibanglaohu_daiji.anim" Channel="" TimeScale="0.645" Length="1.1" Times="-1"/>
+				<ActorScaleChange beginScale="5.5" endScale="5.5"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/daichibanglaohu_paobu.anim" Channel="" TimeScale="1" Length="0.633" Times="-1"/>
+				<ActorScaleChange beginScale="5" endScale="5"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

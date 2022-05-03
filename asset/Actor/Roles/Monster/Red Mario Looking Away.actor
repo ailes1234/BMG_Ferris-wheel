@@ -1,0 +1,347 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="character_new_red_mario.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1006" MasterName="clothes_pants">
+				<Skin ChangeColor="2.10195e-44 7.23911e-42 2.21007e-10 0" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/maliao_body_hong_trousers.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="clothes_tops_1006" MasterName="clothes_tops">
+				<Skin ChangeColor="2.10195e-44 7.23911e-42 2.21007e-10 0" UseBloom="false" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/maliao_body_hong_trunk.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="01" MasterName="face">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/maliao_face.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="feet_01" MasterName="feet">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_l_foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/maliao_shoes_l.mesh"/>
+					<Position_X value="0.126753"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="b_r_foot"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/maliao_shoes_r.mesh"/>
+					<Position_X value="0.123981"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="mario" MasterName="armor_head">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/maliao_toukui.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="pants_01" MasterName="pants"/>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/maliao_yunsupao.anim"/>
+			<Anim Name="asset/Anim/maliao_dunzou.anim"/>
+			<Anim Name="asset/Anim/maliao_dongzhangxiwang.anim"/>
+			<Anim Name="asset/Anim/maliao_shache.anim"/>
+			<Anim Name="asset/Anim/maliao_duntiao_dunzhexuli.anim"/>
+			<Anim Name="asset/Anim/boy_attack01.anim"/>
+			<Anim Name="asset/Anim/boy_stand01.anim"/>
+			<Anim Name="asset/Anim/boy_walk01.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_a.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_b.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_c.anim"/>
+			<Anim Name="asset/Anim/boy_fly01.anim"/>
+			<Anim Name="asset/Anim/boy_fly02.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_a.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_b.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_c.anim"/>
+			<Anim Name="asset/Anim/boy_stand02.anim"/>
+			<Anim Name="asset/Anim/boy_eat01.anim"/>
+			<Anim Name="asset/Anim/boy_stand03.anim"/>
+			<Anim Name="asset/Anim/boy_attack03.anim"/>
+			<Anim Name="asset/Anim/boy_block01_a.anim"/>
+			<Anim Name="asset/Anim/boy_block01_b.anim"/>
+			<Anim Name="asset/Anim/boy_block01_c.anim"/>
+			<Anim Name="asset/Anim/boy_eat02.anim"/>
+			<Anim Name="asset/Anim/boy_eat03.anim"/>
+			<Anim Name="asset/Anim/boy_stand04.anim"/>
+			<Anim Name="asset/Anim/boy_stand05.anim"/>
+			<Anim Name="asset/Anim/boy_swim01.anim"/>
+			<Anim Name="asset/Anim/boy_swim02.anim"/>
+			<Anim Name="asset/Anim/boy_walk02.anim"/>
+			<Anim Name="asset/Anim/boy_walk03.anim"/>
+			<Anim Name="asset/Anim/boy_attack04.anim"/>
+			<Anim Name="asset/Anim/boy_attack05.anim"/>
+			<Anim Name="asset/Anim/boy_atstand01.anim"/>
+			<Anim Name="asset/Anim/boy_atstand02.anim"/>
+			<Anim Name="asset/Anim/boy_attack06.anim"/>
+			<Anim Name="asset/Anim/boy_attack07.anim"/>
+			<Anim Name="asset/Anim/boy_stand06.anim"/>
+			<Anim Name="asset/Anim/boy_stand07.anim"/>
+			<Anim Name="asset/Anim/boy_attack08.anim"/>
+			<Anim Name="asset/Anim/boy_attack09.anim"/>
+			<Anim Name="asset/Anim/boy_stand09.anim"/>
+			<Anim Name="asset/Anim/boy_stand10.anim"/>
+			<Anim Name="asset/Anim/boy_walk04.anim"/>
+			<Anim Name="asset/Anim/boy_walk05.anim"/>
+			<Anim Name="asset/Anim/boy_walk06.anim"/>
+			<Anim Name="asset/Anim/boy_walk07.anim"/>
+			<Anim Name="asset/Anim/boy_standby01.anim"/>
+			<Anim Name="asset/Anim/christmas_idle_boy.anim"/>
+			<Anim Name="asset/Anim/christmas_scratchhead_boy.anim"/>
+			<Anim Name="asset/Anim/christmas_wave_boy.anim"/>
+			<Anim Name="asset/Anim/climb02.anim"/>
+			<Anim Name="asset/Anim/climb01.anim"/>
+			<Anim Name="asset/Anim/climb03.anim"/>
+			<Anim Name="asset/Anim/smg_run.anim"/>
+			<Anim Name="asset/Anim/smg_sneak.anim"/>
+			<Anim Name="asset/Anim/smg_walk.anim"/>
+			<Anim Name="asset/Anim/smg_jump.anim"/>
+			<Anim Name="asset/Anim/smg_sneak_1.anim"/>
+			<Anim Name="asset/Anim/smg_jump_3.anim"/>
+			<Anim Name="asset/Anim/395_boneless.anim"/>
+			<Anim Name="asset/Anim/397_dance.anim"/>
+			<Anim Name="asset/Anim/401_reanimation.anim"/>
+			<Anim Name="asset/Anim/403_snoop.anim"/>
+			<Anim Name="asset/Anim/415_cry.anim"/>
+			<Anim Name="asset/Anim/422_laugh.anim"/>
+			<Anim Name="asset/Anim/424_flex.anim"/>
+			<Anim Name="asset/Anim/430_thumbs_up.anim"/>
+			<Anim Name="asset/Anim/620_idontknow.anim"/>
+			<Anim Name="asset/Anim/621_ok.anim"/>
+			<Anim Name="asset/Anim/623_warmup.anim"/>
+			<Anim Name="asset/Anim/627_ladybow.anim"/>
+			<Anim Name="asset/Anim/lookdown.anim"/>
+			<Anim Name="asset/Anim/no.anim"/>
+			<Anim Name="asset/Anim/rage.anim"/>
+			<Anim Name="asset/Anim/yes.anim"/>
+			<Anim Name="asset/Anim/boy_wave.anim"/>
+			<Anim Name="asset/Anim/boy_scratch.anim"/>
+			<Anim Name="asset/Anim/sit_1.anim"/>
+			<Anim Name="asset/Anim/sit_2.anim"/>
+			<Anim Name="asset/Anim/balloon_idle.anim"/>
+			<Anim Name="asset/Anim/makeitrain.anim"/>
+			<Anim Name="asset/Anim/boy_bear_idle.anim"/>
+			<Anim Name="asset/Anim/renzhe_boy.anim"/>
+			<Anim Name="asset/Anim/sleep.anim"/>
+			<Anim Name="asset/Anim/boy_fly03.anim"/>
+			<Anim Name="asset/Anim/robot_boytest.anim"/>
+			<Anim Name="asset/Anim/longzhu_baofa.anim"/>
+			<Anim Name="asset/Anim/mofanan.anim"/>
+			<Anim Name="asset/Anim/dance_in_the_snow.anim"/>
+			<Anim Name="asset/Anim/renzhe_girl.anim"/>
+			<Anim Name="asset/Anim/shunv.anim"/>
+			<Anim Name="asset/Anim/pengsaiboge.anim"/>
+			<Anim Name="asset/Anim/82_body_boy_zashua.anim"/>
+			<Anim Name="asset/Anim/qima.anim"/>
+			<Anim Name="asset/Anim/lianji_1.anim"/>
+			<Anim Name="asset/Anim/lianji_2.anim"/>
+			<Anim Name="asset/Anim/lianji_3.anim"/>
+			<Anim Name="asset/Anim/lianji_5.anim"/>
+			<Anim Name="asset/Anim/telankesi.anim"/>
+			<Anim Name="asset/Anim/throw.anim"/>
+			<Anim Name="asset/Anim/maliao_duntiao_kongzhong.anim"/>
+			<Anim Name="asset/Anim/maliao_yuandiduntiao_zhuan.anim"/>
+			<Anim Name="asset/Anim/maliao_yuanditiao_yuandian_1.anim"/>
+			<Anim Name="asset/Anim/maliao_erduantiao_1.anim"/>
+			<Anim Name="asset/Anim/maliao_duntiao_xiadunxuli.anim"/>
+			<Anim Name="asset/Anim/maliao_tiaodun_xuanzhuan.anim"/>
+			<Anim Name="asset/Anim/maliao_tiaodun_xz_qi.anim"/>
+			<Anim Name="asset/Anim/maliao_yuandidun.anim"/>
+			<Anim Name="asset/Anim/g2020_climb_down.anim"/>
+			<Anim Name="asset/Anim/g2020_climb_left.anim"/>
+			<Anim Name="asset/Anim/g2020_climb_right.anim"/>
+			<Anim Name="asset/Anim/maliao_fashezidan.anim"/>
+			<Anim Name="asset/Anim/maliao_jiasupao.anim"/>
+			<Anim Name="asset/Anim/maliao_youyong.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="accelerate_run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_jiasupao.anim" Channel="" TimeScale="1.35" Length="0.566" Times="-1"/>
+			</Skill>
+			<Skill Name="aerialLandingWithMoveJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_luodi.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="aerialLandingWithMoveJump_____________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_luodi_6zhen.anim" Channel="" TimeScale="1" Length="0.233" Times="1"/>
+			</Skill>
+			<Skill Name="aerialLandingWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_xz_qi.anim" Channel="" TimeScale="1" Length="1.133" Times="1"/>
+			</Skill>
+			<Skill Name="attack" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_fashezidan.anim" Channel="" TimeScale="2.5" Length="1.5" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_dongzhangxiwang.anim" Channel="" TimeScale="1" Length="4.366" Times="-1"/>
+			</Skill>
+			<Skill Name="jump11" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_xialuo.anim" Channel="" TimeScale="1" Length="0.3" Times="1"/>
+			</Skill>
+			<Skill Name="jump1111" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao.anim" Channel="" TimeScale="1" Length="1.966" Times="-1"/>
+			</Skill>
+			<Skill Name="jump12" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_luodihuanchong.anim" Channel="" TimeScale="1" Length="0.7" Times="1"/>
+			</Skill>
+			<Skill Name="jump13" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_qitiao.anim" Channel="" TimeScale="1" Length="1.033" Times="1"/>
+			</Skill>
+			<Skill Name="jump14" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_fanzhuan.anim" Channel="" TimeScale="1" Length="0.6" Times="1"/>
+			</Skill>
+			<Skill Name="jump15" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_xialuo.anim" Channel="" TimeScale="1" Length="0.433" Times="1"/>
+			</Skill>
+			<Skill Name="jump16" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_qishen.anim" Channel="" TimeScale="1" Length="1.166" Times="1"/>
+			</Skill>
+			<Skill Name="jump17" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_1.anim" Channel="" TimeScale="1" Length="0.5" Times="1"/>
+			</Skill>
+			<Skill Name="jump18" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_2.anim" Channel="" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="jump19" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_3.anim" Channel="" TimeScale="1" Length="0.5" Times="1"/>
+			</Skill>
+			<Skill Name="jump2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_1.anim" Channel="" TimeScale="1.25" Length="0.866" Times="1"/>
+			</Skill>
+			<Skill Name="jump20" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_4.anim" Channel="" TimeScale="1" Length="0.333" Times="1"/>
+			</Skill>
+			<Skill Name="jump21" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_5.anim" Channel="" TimeScale="1" Length="0.333" Times="1"/>
+			</Skill>
+			<Skill Name="jump21111" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao.anim" Channel="" TimeScale="1" Length="2.666" Times="1"/>
+			</Skill>
+			<Skill Name="jump22" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_6.anim" Channel="" TimeScale="1" Length="0.8" Times="1"/>
+			</Skill>
+			<Skill Name="jump23" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_gai6zhen.anim" Channel="" TimeScale="1" Length="0.2" Times="1"/>
+			</Skill>
+			<Skill Name="jump27" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandian_3.anim" Channel="" TimeScale="1" Length="0.8" Times="1"/>
+			</Skill>
+			<Skill Name="jump28" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_xialuoqie.anim" Channel="" TimeScale="10" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="jump33" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_xz_jingtai.anim" Channel="" TimeScale="1" Length="0.133" Times="1"/>
+			</Skill>
+			<Skill Name="jump37" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_1.anim" Channel="" TimeScale="1.25" Length="0.866" Times="1"/>
+			</Skill>
+			<Skill Name="jump38" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_2.anim" Channel="" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="jump39_____________________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_3.anim" Channel="" TimeScale="2" Length="0.3" Times="1"/>
+			</Skill>
+			<Skill Name="jump3_____________________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_3.anim" Channel="" TimeScale="2" Length="0.3" Times="1"/>
+			</Skill>
+			<Skill Name="jump4" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_erduantiao_2.anim" Channel="" TimeScale="1" Length="1.133" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithIdle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_1.anim" Channel="" TimeScale="1.25" Length="0.866" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithIdle2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandian_2.anim" Channel="" TimeScale="1" Length="0.733" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithIdle_______________22" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandian_1.anim" Channel="" TimeScale="1.5" Length="0.5" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithIdle_________________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandian_2.anim" Channel="" TimeScale="1" Length="0.733" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandiduntiao_zhuan.anim" Channel="" TimeScale="0.3" Length="0.2" Times="1"/>
+			</Skill>
+			<Skill Name="jumpWithSquat____________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_qitiao1.anim" Channel="" TimeScale="0.25" Length="0.3" Times="1"/>
+			</Skill>
+			<Skill Name="jump_fall" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_kongzhong.anim" Channel="" TimeScale="1" Length="0.3" Times="1"/>
+			</Skill>
+			<Skill Name="jump_fall__________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_xialuo.anim" Channel="" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="jump_fall_______________" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuanditiao_yuandian_2.anim" Channel="" TimeScale="1" Length="0.566" Times="1"/>
+			</Skill>
+			<Skill Name="jump_sneak" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun1.anim" Channel="" TimeScale="1" Length="3.233" Times="1"/>
+			</Skill>
+			<Skill Name="moveWithAccelerate" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_jiasupao.anim" Channel="" TimeScale="1" Length="0.566" Times="-1"/>
+			</Skill>
+			<Skill Name="sprint" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_jiasupao.anim" Channel="" TimeScale="1" Length="0.566" Times="-1"/>
+			</Skill>
+			<Skill Name="moveWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_dunzou.anim" Channel="" TimeScale="1" Length="0.966" Times="-1"/>
+			</Skill>
+			<Skill Name="powerStorage" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_dunzhexuli.anim" Channel="" TimeScale="1" Length="0.9" Times="1"/>
+			</Skill>
+			<Skill Name="rotateFallWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_xuanzhuan.anim" Channel="" TimeScale="1" Length="0.466" Times="1"/>
+			</Skill>
+			<Skill Name="rotateWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_tiaodun_xuanzhuan.anim" Channel="" TimeScale="1.5" Length="0.766" Times="1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/boy_walk01.anim" Channel="" TimeScale="1.24" Length="0.833" Times="-1"/>
+			</Skill>
+			<Skill Name="skidWithSprintAndSprintJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_shache.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="sneak" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandidun.anim" Channel="" TimeScale="1" Length="2.1" Times="-1"/>
+			</Skill>
+			<Skill Name="squatWithClick" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_yuandidun.anim" Channel="" TimeScale="4" Length="2.1" Times="1"/>
+			</Skill>
+			<Skill Name="squat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_duntiao_xiadunxuli.anim" Channel="" TimeScale="1" Length="0.933" Times="1"/>
+			</Skill>
+			<Skill Name="swim" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_youyong.anim" Channel="" TimeScale="1" Length="0.833" Times="-1"/>
+			</Skill>
+			<Skill Name="swim_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/boy_swim01.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="twiceJump" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_erduantiao_1.anim" Channel="" TimeScale="0.75" Length="0.866" Times="1"/>
+			</Skill>
+			<Skill Name="moveWithSquat" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/maliao_dunzou.anim" Channel="" TimeScale="1" Length="0.966" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,388 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="ship01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="ship_wooden_ship.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 1.12398e-41 4.25542e+27 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/wooden_ship.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="pusher_1" MasterName="pusher">
+				<Skin ChangeColor="2.10195e-44 4.01052e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/slark.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="2" MasterName="pusher">
+				<Skin ChangeColor="2.10195e-44 4.34543e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/propeller.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="3" MasterName="pusher">
+				<Skin ChangeColor="2.10195e-44 1.10717e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/injector.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="4" MasterName="pusher">
+				<Skin ChangeColor="2.10195e-44 1.1237e-41 1.80275e+28 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/tnt_driver.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipflag_1" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 1.05406e-41 2.93403e-35 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/pirate_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipflag_2" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 1.08881e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/fishermen_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipflag_3" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 1.12398e-41 2.93403e-35 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/navy_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipflag_4" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 2.312e-41 4.25542e+27 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/strawhat_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="5" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 2.32924e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/baki_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="6" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 2.34605e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/whitebeard_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="7" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 2.36371e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/marine_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="8" MasterName="shipflag">
+				<Skin ChangeColor="2.10195e-44 2.38053e-41 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/worldgovt_flag.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_1" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao03huang.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao03huang.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 5.37538e-42 4.41697e+30 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/y_butterfly_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="10" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao11emo.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao11emo.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.53391e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/demon_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_2" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao05shenlan.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao05shenlan.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 5.73131e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/b_butterfly_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_3" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao04shenhuang.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao04shenhuang.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 6.08724e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/yd_butterfly_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_4" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao02zi.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao02zi.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 6.44457e-42 1.86628e+25 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/fairy_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_5" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao06yunbai.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao06yunbai.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 6.79349e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/clouds_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_6" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao07hui.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao07hui.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 7.14242e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/steel_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_7" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao08qianlan.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao08qianlan.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 7.48994e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/frost_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="shipwing_8" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao09huohong.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/chibangtexiao09huohong.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 7.83746e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/flame_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="9" MasterName="shipwing">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_l_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao10tianshi.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_r_wings_e"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Life/chibangtexiao10tianshi.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.18498e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/angel_wings.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_1" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 1.23034e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/triangular_spike.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_2" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 1.58066e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/pliers_spike.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_3" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 1.92679e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/gear_saws.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_4" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 2.2687e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/trident.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_5" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 2.60642e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/guardian_spike.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_6" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 2.95534e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/crazy_artillery.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_7" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 3.30566e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/torpedo_launcher.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="false" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_8" MasterName="weapon">
+				<Skin ChangeColor="2.10195e-44 3.65739e-42 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/missile_launcher.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/ship01_stand01.anim"/>
+			<Anim Name="asset/Anim/ship01_stand02.anim"/>
+			<Anim Name="asset/Anim/ship01_walk01.anim"/>
+			<Anim Name="asset/Anim/ship01_attack01.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/ship01_attack01.anim" Channel="" TimeScale="1" Length="0.633" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/ship01_stand01.anim" Channel="" TimeScale="1" Length="2.166" Times="-1"/>
+			</Skill>
+			<Skill Name="jump2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/ship01_stand02.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="push" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/ship01_stand02.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/ship01_walk01.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="swim" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/ship01_walk01.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+			<Skill Name="swim_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/ship01_stand01.anim" Channel="" TimeScale="1" Length="2.166" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

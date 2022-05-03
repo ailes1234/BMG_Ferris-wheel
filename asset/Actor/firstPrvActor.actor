@@ -1,0 +1,80 @@
+<ActorTemplates>
+	<ActorTemplate WoundAngle="25" Alpha="1" Skeleton="firstPrvActor.skel" SoundName3="" SoundName1="" Originalscale="1 1 1" WoundBone="" name="111.actor" SoundName5="" SoundFileNum="0" SelectedRingSize="1" IntervalTime="2" IsShowShadow="true" SoundName2="" MaxDistance="16" SoundName4="" Volume="0.8" AttackScale="1" MinDistance="1" TextHeight="0">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" MasterName="mutex_name_0" ColorParams="1 1 1 1" SlaveName="group0" DefaultUse="true">
+				<Skin type_name="firstPrvActor" UseEdge="false" LocalBrightnessScale="1.0" SpecularCoef="0.15" UseOriginalcolor="false" ChangeColor="1.4013e-45 -0.487196 0.0893673 -0.567287" EdgeColor="1.0 0 0 1.0" UseTransparentNearestSlice="false" MeshName="asset/Skin/Actor_skin/firstPrvActor.skin" SpecularColor="1.0 1.0 1.0 1.0" UseReflect="false" OverlayColor="1 1 1 1" UVSpeed="0 0" UseBloom="false" UseOverlayColorReplaceMode="false" LocalAlpha="1" DiscardAlpha="0" SpecularStrength="1.0"/>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack2">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack3">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack4">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack5">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack6">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="eat">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvEat.anim" BeginTime="0" TimeScale="1" Times="1" FadeTime="0.25"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="idle">
+				<Animation Length="1.033" Channel="" Name="asset/Anim/firstPrvIdle.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="run">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="attack7">
+				<Animation Length="0.333" Channel="" Name="asset/Anim/firstPrvAttack2.anim" BeginTime="0" TimeScale="1.25" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="climb_up">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.5" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="climb_down">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.5" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="climb_left">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.5" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="climb_right">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.5" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="swim_idle">
+				<Animation Length="1.033" Channel="" Name="asset/Anim/firstPrvIdle.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="swim_up">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="swim">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="back_run">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="1" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="sneak">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.5" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="walk">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="0.75" Times="-1" FadeTime="0.05"/>
+			</Skill>
+			<Skill UserDefineTime="-2" TextMode="0" EnableWound="false" Name="sprint">
+				<Animation Length="0.966" Channel="" Name="asset/Anim/firstPrvRun.anim" BeginTime="0" TimeScale="1.3" Times="-1" FadeTime="0.05"/>
+			</Skill>
+		</Skills>
+		<Anims>
+			<Anim Name="asset/Anim/firstPrvRun.anim"/>
+			<Anim Name="asset/Anim/firstPrvIdle.anim"/>
+			<Anim Name="asset/Anim/firstPrvEat.anim"/>
+			<Anim Name="asset/Anim/firstPrvAttack2.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

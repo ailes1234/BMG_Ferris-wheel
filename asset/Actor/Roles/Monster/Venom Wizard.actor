@@ -1,0 +1,121 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g2021_duyewushi.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_1_1_1.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="body" MasterName="body">
+				<Effect>
+					<scale value="0.3"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_Y value="0.228145"/>
+					<yaw value="0"/>
+					<Position_Z value="0.0431957"/>
+					<pitch value="0"/>
+					<Position_X value="0.0956401"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_saman_hand.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="-0.386762"/>
+					<yaw value="0"/>
+					<Position_Z value="0.228701"/>
+					<pitch value="0"/>
+					<Position_X value="0.285593"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_saman_eyes.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.16"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="-0.241251"/>
+					<yaw value="0"/>
+					<Position_Z value="0.192923"/>
+					<pitch value="0"/>
+					<Position_X value="0.43168"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_saman_eyes.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.16"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0.201246"/>
+					<yaw value="0"/>
+					<Position_Z value="0.203141"/>
+					<pitch value="0"/>
+					<Position_X value="0.443178"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_saman_eyes.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.1"/>
+					<roll value="0"/>
+					<SocketName value="Bip001_Head"/>
+					<Position_Y value="0.372809"/>
+					<yaw value="0"/>
+					<Position_Z value="0.234347"/>
+					<pitch value="0"/>
+					<Position_X value="0.283757"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_saman_eyes.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 9.03838e-43 2.68631e+20 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_duyewushi.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g2021_duyewushi_zoulu.anim"/>
+			<Anim Name="asset/Anim/g2021_duyewushi_shouji.anim"/>
+			<Anim Name="asset/Anim/g2021_duyewushi_gongji.anim"/>
+			<Anim Name="asset/Anim/g2021_duyewushi_daiji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_duyewushi_gongji.anim" Channel="" TimeScale="1" Length="1.4" Times="1"/>
+				<ActorScaleChange beginScale="1.5" endScale="1.5"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_dungeon_zhiliaoshu.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="0.5"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0.0029376"/>
+					<pitch value="0"/>
+					<BeginTime value="0.7"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1.1"/>
+				</Effect>
+				<ActorScaleChange beginScale="1.5" endScale="1.5"/>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_duyewushi_gongji.anim" Channel="" TimeScale="0.7" Length="1.4" Times="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_duyewushi_shouji.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+				<ActorScaleChange beginScale="1.5" endScale="1.5"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_duyewushi_daiji.anim" Channel="" TimeScale="1" Length="1.366" Times="-1"/>
+				<ActorScaleChange beginScale="1.5" endScale="1.5"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_duyewushi_zoulu.anim" Channel="" TimeScale="1" Length="1.166" Times="-1"/>
+				<ActorScaleChange beginScale="1.5" endScale="1.5"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

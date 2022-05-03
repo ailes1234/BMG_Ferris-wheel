@@ -1,0 +1,74 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g1047_prop_2034.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_fru_chairs3.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="2034" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="zhege"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g1047_prop_2034.mesh"/>
+				</StaticMesh>
+				<Skin ChangeColor="2.10195e-44 9.16449e-43 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_01.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.31915e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_02.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.49992e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_03.skin"/>
+				<Skin ChangeColor="2.10195e-44 3.47242e-42 2.7472e+17 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_04.skin"/>
+				<Skin ChangeColor="2.10195e-44 9.16449e-43 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_05.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.31915e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_06.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.49992e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_07.skin"/>
+				<Skin ChangeColor="2.10195e-44 3.47242e-42 2.7472e+17 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_08.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.49992e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_09.skin"/>
+				<Skin ChangeColor="2.10195e-44 3.47242e-42 2.7472e+17 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_10.skin"/>
+				<Skin ChangeColor="2.10195e-44 9.16449e-43 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_11.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.31915e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_12.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.49992e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_13.skin"/>
+				<Skin ChangeColor="2.10195e-44 3.47242e-42 2.7472e+17 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_14.skin"/>
+				<Skin ChangeColor="2.10195e-44 9.16449e-43 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_15.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.31915e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_16.skin"/>
+				<Skin ChangeColor="2.10195e-44 2.49992e-42 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1047_prop_2034_17.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g1047_prop_2034_idle.anim"/>
+			<Anim Name="asset/Anim/g1047_prop_2034_loop.anim"/>
+			<Anim Name="asset/Anim/tv_up.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="down" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Life/g2020_fur_smoke.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="0"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="BuSuiFu"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1047_prop_2034_idle.anim" Channel="" TimeScale="1" Length="0.7" Times="-1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1047_prop_2034_idle.anim" Channel="" TimeScale="1" Length="0.7" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1047_prop_2034_loop.anim" Channel="" TimeScale="0.5" Length="1.666" Times="-1"/>
+			</Skill>
+			<Skill Name="up" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/tv_up.anim" Channel="" TimeScale="1" Length="1.666" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

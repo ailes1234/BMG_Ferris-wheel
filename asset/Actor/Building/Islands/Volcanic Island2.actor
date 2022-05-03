@@ -1,0 +1,78 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="stone01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2030_island_huoshan_1_2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bip01"/>
+					<Position_Y value="-0.505423"/>
+					<yaw value="0"/>
+					<Position_Z value="1.02854"/>
+					<pitch value="0"/>
+					<Position_X value="-1.35172"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2030_ranshao.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="bip01"/>
+					<Position_Y value="-0.496045"/>
+					<yaw value="60"/>
+					<Position_Z value="-1.88755"/>
+					<pitch value="0"/>
+					<Position_X value="2.02063"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2030_ranshao.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.5"/>
+					<roll value="0"/>
+					<SocketName value="bip01"/>
+					<Position_Y value="-0.0390299"/>
+					<yaw value="0"/>
+					<Position_Z value="0.789273"/>
+					<pitch value="0"/>
+					<Position_X value="1.0219"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2030_ranshao.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="0.15"/>
+					<roll value="0"/>
+					<SocketName value="bip01"/>
+					<Position_Y value="0.723462"/>
+					<yaw value="99.9999"/>
+					<Position_Z value="-2.38458"/>
+					<pitch value="0"/>
+					<Position_X value="-1.83993"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Building/g2030_ranshao_2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1">
+					<SpecularCoef value="0.15"/>
+					<Position_X value="0"/>
+					<scale value="2.3"/>
+					<SpecularColor value="1 1 1 1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<Position_Y value="-4.85084"/>
+					<SocketName value="bip01"/>
+					<UseBloom value="false"/>
+					<SpecularStrength value="1"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2030_island_huoshan_1.mesh"/>
+					<UseTransparentNearestSlice value="false"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims/>
+		<Skills/>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,126 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2020_npc_indent_model.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_hand_r"/>
+					<Position_Y value="0"/>
+					<yaw value="90"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0.23838"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2020_pizzabox_01.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="46" MasterName="clothes_pants">
+				<Skin ChangeColor="2.10195e-44 1.9936e-40 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/46_trousers_widget.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="clothes_tops_46" MasterName="clothes_tops">
+				<Skin ChangeColor="2.10195e-44 1.94886e-40 1.4013e-45 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/46_trunk_widget.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="custom_face_1" MasterName="custom_face">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_face_boy.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="6" MasterName="custom_hair">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/06_hair_boy.mesh"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<scale value="1.5"/>
+					<roll value="90"/>
+					<SocketName value="s_back"/>
+					<Position_Y value="-0.159339"/>
+					<yaw value="110"/>
+					<Position_Z value="-0.142628"/>
+					<pitch value="-1.70755e-06"/>
+					<Position_X value="-0.21281"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2024_food_pizza.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="14" MasterName="custom_shoes">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_l"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/14_shoes_l_widget.mesh"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/14_shoes_r_widget.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/christmas_wave_boy.anim"/>
+			<Anim Name="asset/Anim/no.anim"/>
+			<Anim Name="asset/Anim/lookdown.anim"/>
+			<Anim Name="asset/Anim/daren_dabaoxiao_paobu.anim"/>
+			<Anim Name="asset/Anim/qianshou_you_zhanli.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="doing" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/qianshou_you_zhanli.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Effect>
+					<FollowActor value="true"/>
+					<Position_Z value="0"/>
+					<Times value="1"/>
+					<FileName value="asset/Effect/Roles/30gantanhao_m.effect"/>
+					<isSlowdownValuable value="true"/>
+					<scale value="1"/>
+					<roll value="0"/>
+					<yaw value="0"/>
+					<CycleTime value="-1"/>
+					<Position_Y value="1.41131"/>
+					<pitch value="0"/>
+					<BeginTime value="0"/>
+					<SocketName value="bip01"/>
+					<Position_X value="-0.0354224"/>
+					<Alpha value="1"/>
+					<Persist value="false"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/christmas_wave_boy.anim" Channel="" TimeScale="1" Length="6.7" Times="-1"/>
+			</Skill>
+			<Skill Name="nomore" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/no.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+			</Skill>
+			<Skill Name="punish" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/lookdown.anim" Channel="" TimeScale="1" Length="1.033" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

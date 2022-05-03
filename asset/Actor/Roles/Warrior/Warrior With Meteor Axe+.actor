@@ -1,0 +1,115 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_monster_603_2.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="g2021_suit_03" MasterName="body">
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_armor04_head.mesh"/>
+				</StaticMesh>
+				<Skin ChangeColor="2.10195e-44 8.0691e-41 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g2021_armor04_body.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="0_4_4" MasterName="shield">
+				<Effect>
+					<scale value="1.4"/>
+					<roll value="0"/>
+					<SocketName value="s_hand_l"/>
+					<Position_Y value="0.187979"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="-90"/>
+					<Position_X value="-0.15"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_sield_0_4_4.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="weapon_0_4_4" MasterName="weapon">
+				<Effect>
+					<scale value="4"/>
+					<roll value="0"/>
+					<SocketName value="s_hand_r"/>
+					<Position_Y value="-0.00700865"/>
+					<yaw value="80"/>
+					<Position_Z value="3.28976"/>
+					<pitch value="0"/>
+					<Position_X value="-0.455715"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_28_A.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="5"/>
+					<roll value="0.0174518"/>
+					<SocketName value="s_hand_r"/>
+					<Position_Y value="-0.00278252"/>
+					<yaw value="76.4998"/>
+					<Position_Z value="2.0411"/>
+					<pitch value="-0.999818"/>
+					<Position_X value="-0.273115"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_28_A.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Effect>
+					<scale value="1"/>
+					<roll value="89.8422"/>
+					<SocketName value="s_hand_r"/>
+					<Position_Y value="0.0188141"/>
+					<yaw value="-96.9916"/>
+					<Position_Z value="2.69217"/>
+					<pitch value="-5.99793"/>
+					<Position_X value="-0.361144"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_tuowei1.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<StaticMesh LocalAlpha="1">
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_hand_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="-0.0633577"/>
+					<pitch value="0"/>
+					<Position_X value="0.0952551"/>
+					<FileName value="asset/Mesh/Actor_mesh/g2021_weapon_0_4_4.mesh"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/boy_stand04.anim"/>
+			<Anim Name="asset/Anim/g2021_zhujiao_run.anim"/>
+			<Anim Name="asset/Anim/g2021_zhujue_lianzhao2.anim"/>
+			<Anim Name="asset/Anim/lianji_2.anim"/>
+			<Anim Name="asset/Anim/g2021_zhujue_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_zhujue_lianzhao2.anim" Channel="" TimeScale="1" Length="1.133" Times="1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/lianji_2.anim" Channel="" TimeScale="1" Length="2" Times="1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_zhujue_shouji.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/boy_stand04.anim" Channel="" TimeScale="1" Length="1.1" Times="-1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g2021_zhujiao_run.anim" Channel="" TimeScale="1" Length="0.633" Times="-1"/>
+				<ActorScaleChange beginScale="1" endScale="1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

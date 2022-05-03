@@ -1,0 +1,24 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="mq.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="mq.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="01" MasterName="body">
+				<Skin ChangeColor="2.10195e-44 8.82818e-43 7.1491e+28 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/mq.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/mq_move.anim"/>
+			<Anim Name="asset/Anim/mq_attack.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack01" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mq_attack.anim" Channel="" TimeScale="1" Length="0.966" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mq_move.anim" Channel="" TimeScale="1" Length="0.866" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/mq_move.anim" Channel="" TimeScale="1" Length="0.866" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

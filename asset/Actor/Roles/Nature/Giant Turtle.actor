@@ -1,0 +1,54 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="haiguai.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="juxinghaiguai.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="haiguai">
+				<Skin ChangeColor="2.10195e-44 8.92627e-43 1.4013e-45 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/haiguai.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/haiguai_idle.anim"/>
+			<Anim Name="asset/Anim/haiguai_swim.anim"/>
+			<Anim Name="asset/Anim/haiguai_attack01.anim"/>
+			<Anim Name="asset/Anim/haiguai_attack02.anim"/>
+			<Anim Name="asset/Anim/haiguai_attack03.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/haiguai_attack01.anim" Channel="upper" TimeScale="1" Length="2.033" Times="1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="attack2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/haiguai_attack02.anim" Channel="upper" TimeScale="1" Length="1.7" Times="1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="attack3" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/haiguai_attack03.anim" Channel="upper" TimeScale="1" Length="1.2" Times="1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/haiguai_idle.anim" Channel="lower" TimeScale="1" Length="1.07388e+06" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="jump2" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.23313e+06" BeginTime="0" Name="asset/Anim/haiguai_idle.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="push" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/haiguai_idle.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="1.04858e+06" BeginTime="0" Name="asset/Anim/haiguai_idle.anim" Channel="" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="swim" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/haiguai_swim.anim" Channel="lower" TimeScale="1" Length="1.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+			<Skill Name="swim_idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/haiguai_idle.anim" Channel="lower" TimeScale="1" Length="2.033" Times="-1"/>
+				<ActorScaleChange beginScale="2" endScale="2"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

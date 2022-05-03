@@ -1,0 +1,44 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="g1051_spider.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="g2021_pet_1_2_4.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart EdgeColor="1 1 1 1" DefaultUse="true" ColorParams="1 1 1 1" SlaveName="boy" MasterName="body" Group="">
+				<Effect>
+					<scale value="0.9"/>
+					<roll value="0"/>
+					<SocketName value="Bone006"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<Position_X value="0"/>
+					<Alpha value="1"/>
+					<FileName value="asset/Effect/Roles/g2021_pet_zhizhu2.effect"/>
+					<TimeScale value="1"/>
+				</Effect>
+				<Skin ChangeColor="2.10195e-44 8.98232e-43 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1051_spider1_body.skin"/>
+				<Skin ChangeColor="2.10195e-44 1.079e-42 5.54597e+31 0" UVSpeed="0 0" LocalAlpha="1" MeshName="asset/Skin/Actor_skin/g1051_spider1_foot.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/g1051_spider_idle.anim"/>
+			<Anim Name="asset/Anim/g1051_spider_walk.anim"/>
+			<Anim Name="asset/Anim/g1051_spider_attack_01.anim"/>
+			<Anim Name="asset/Anim/g1051_spider_attack_02.anim"/>
+			<Anim Name="asset/Anim/g1051_spider_shouji.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="attack1" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1051_spider_attack_01.anim" Channel="" TimeScale="1" Length="1.366" Times="1"/>
+			</Skill>
+			<Skill Name="hurt" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1051_spider_shouji.anim" Channel="" TimeScale="1" Length="0.533" Times="1"/>
+			</Skill>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1051_spider_idle.anim" Channel="" TimeScale="1" Length="7.366" Times="-1"/>
+			</Skill>
+			<Skill Name="run" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.25" BeginTime="0" Name="asset/Anim/g1051_spider_walk.anim" Channel="" TimeScale="1" Length="0.566" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>

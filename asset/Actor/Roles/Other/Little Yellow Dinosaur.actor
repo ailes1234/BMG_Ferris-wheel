@@ -1,0 +1,114 @@
+<ActorTemplates>
+	<ActorTemplate Skeleton="boy_01.skel" SoundFileNum="0" SoundName1="" IsShowShadow="true" SelectedRingSize="1" AttackScale="1" SoundName2="" TextHeight="0" SoundName5="" SoundName3="" MaxDistance="16" Volume="0.8" Originalscale="1 1 1" SoundName4="" WoundBone="" name="dinosaurY.actor" WoundAngle="25" Alpha="1" MinDistance="1" IntervalTime="2">
+		<BodyParts>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="300403" MasterName="clothes_pants">
+				<Skin ChangeColor="2.10195e-44 6.35489e-42 2.52202e+17 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/3004_03_trousers_widget.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="clothes_tops_300403" MasterName="clothes_tops">
+				<Skin ChangeColor="2.10195e-44 6.35909e-42 3.44643e+30 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/3004_03_trunk_widget.skin"/>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="1" MasterName="custom_face">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/01_face_boy.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="custom_hair_300403" MasterName="custom_hair">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_head"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/3004_03_hair_widget.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="custom_shoes_300403" MasterName="custom_shoes">
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_l"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/3004_03_shoes_l_widget.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+				<StaticMesh>
+					<scale value="1"/>
+					<roll value="0"/>
+					<SocketName value="s_foot_r"/>
+					<Position_Y value="0"/>
+					<yaw value="0"/>
+					<Position_Z value="0"/>
+					<pitch value="0"/>
+					<FileName value="asset/Mesh/Actor_mesh/3004_03_shoes_r_widget.mesh"/>
+					<Position_X value="0"/>
+				</StaticMesh>
+			</BodyPart>
+			<BodyPart DefaultUse="true" ColorParams="1 1 1 1" EdgeColor="1 1 1 1" SlaveName="custom_wing_300403" MasterName="custom_wing">
+				<Skin ChangeColor="2.10195e-44 6.36049e-42 2.53327e+17 0" UVSpeed="0 0" MeshName="asset/Skin/Actor_skin/3004_03_tail_widget.skin"/>
+			</BodyPart>
+		</BodyParts>
+		<Anims>
+			<Anim Name="asset/Anim/boy_attack01.anim"/>
+			<Anim Name="asset/Anim/boy_stand01.anim"/>
+			<Anim Name="asset/Anim/boy_walk01.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_a.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_b.anim"/>
+			<Anim Name="asset/Anim/boy_attack02_c.anim"/>
+			<Anim Name="asset/Anim/boy_fly01.anim"/>
+			<Anim Name="asset/Anim/boy_fly02.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_a.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_b.anim"/>
+			<Anim Name="asset/Anim/boy_jump01_c.anim"/>
+			<Anim Name="asset/Anim/boy_stand02.anim"/>
+			<Anim Name="asset/Anim/boy_eat01.anim"/>
+			<Anim Name="asset/Anim/boy_stand03.anim"/>
+			<Anim Name="asset/Anim/boy_attack03.anim"/>
+			<Anim Name="asset/Anim/boy_block01_a.anim"/>
+			<Anim Name="asset/Anim/boy_block01_b.anim"/>
+			<Anim Name="asset/Anim/boy_block01_c.anim"/>
+			<Anim Name="asset/Anim/boy_eat02.anim"/>
+			<Anim Name="asset/Anim/boy_eat03.anim"/>
+			<Anim Name="asset/Anim/boy_stand04.anim"/>
+			<Anim Name="asset/Anim/boy_stand05.anim"/>
+			<Anim Name="asset/Anim/boy_swim01.anim"/>
+			<Anim Name="asset/Anim/boy_swim02.anim"/>
+			<Anim Name="asset/Anim/boy_walk02.anim"/>
+			<Anim Name="asset/Anim/boy_walk03.anim"/>
+			<Anim Name="asset/Anim/boy_attack04.anim"/>
+			<Anim Name="asset/Anim/boy_attack05.anim"/>
+			<Anim Name="asset/Anim/boy_atstand01.anim"/>
+			<Anim Name="asset/Anim/boy_atstand02.anim"/>
+			<Anim Name="asset/Anim/boy_attack06.anim"/>
+			<Anim Name="asset/Anim/boy_attack07.anim"/>
+			<Anim Name="asset/Anim/boy_stand06.anim"/>
+			<Anim Name="asset/Anim/boy_stand07.anim"/>
+			<Anim Name="asset/Anim/boy_attack08.anim"/>
+			<Anim Name="asset/Anim/boy_attack09.anim"/>
+			<Anim Name="asset/Anim/boy_stand09.anim"/>
+			<Anim Name="asset/Anim/boy_stand10.anim"/>
+			<Anim Name="asset/Anim/boy_walk04.anim"/>
+			<Anim Name="asset/Anim/boy_walk05.anim"/>
+			<Anim Name="asset/Anim/boy_walk06.anim"/>
+			<Anim Name="asset/Anim/boy_walk07.anim"/>
+		</Anims>
+		<Skills>
+			<Skill Name="idle" UserDefineTime="-2" TextMode="0" EnableWound="false">
+				<Animation FadeTime="0.05" BeginTime="0" Name="asset/Anim/boy_stand04.anim" Channel="lower" TimeScale="1" Length="1.1" Times="-1"/>
+			</Skill>
+		</Skills>
+	</ActorTemplate>
+</ActorTemplates>
