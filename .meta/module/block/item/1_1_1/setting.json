@@ -1,0 +1,41 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "67663f7b-4f49-4daf-a043-5b790261731f"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "down": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "front": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "left": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "right": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "up": {
+        "asset": "asset/Resourpack BMG/Road/roadleavesright.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Road/roadleavesright.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "12838a1437b2270621895517a25a201f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.15"
+  }
+}

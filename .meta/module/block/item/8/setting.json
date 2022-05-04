@@ -1,0 +1,41 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "4fb93e54-9f61-4ef4-a75f-99cafe115841"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "down": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "front": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "left": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "right": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      },
+      "up": {
+        "asset": "asset/Resourpack BMG/Colors/green.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "268cd8270461b16792db2273ae7b2c18",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.15"
+  }
+}

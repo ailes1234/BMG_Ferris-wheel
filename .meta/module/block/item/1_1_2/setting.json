@@ -1,0 +1,41 @@
+{
+  "data": {
+    "isOpaqueFullCube": false,
+    "name": {
+      "value": "61f54896-4a5b-4b2c-90db-6ee6a7427127"
+    },
+    "textures": {
+      "back": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      },
+      "down": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      },
+      "front": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      },
+      "left": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      },
+      "right": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      },
+      "up": {
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
+        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "0ae65386bd0affd8d52a373124ef02e9",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.15"
+  }
+}
