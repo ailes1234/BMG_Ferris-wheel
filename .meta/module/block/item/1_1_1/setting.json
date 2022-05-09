@@ -6,36 +6,30 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Resourpack BMG/Colors/green.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+        "asset": "asset/Resourpack BMG/Colors/green.png"
       },
       "down": {
-        "asset": "asset/Resourpack BMG/Colors/green.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+        "asset": "asset/Resourpack BMG/Colors/green.png"
       },
       "front": {
-        "asset": "asset/Resourpack BMG/Colors/green.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+        "asset": "asset/Resourpack BMG/Colors/green.png"
       },
       "left": {
-        "asset": "asset/Resourpack BMG/Colors/green.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+        "asset": "asset/Resourpack BMG/Colors/green.png"
       },
       "right": {
-        "asset": "asset/Resourpack BMG/Colors/green.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/green.png"
+        "asset": "asset/Resourpack BMG/Colors/green.png"
       },
       "up": {
-        "asset": "asset/Resourpack BMG/Road/roadleavesright.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Road/roadleavesright.png"
+        "asset": "asset/Resourpack BMG/Road/roadleavesright.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "12838a1437b2270621895517a25a201f",
+      "setting.json": "295df35f15d93720bf9623fa336c655a",
       "triggers.bts": ""
     },
-    "VERSION": "0.15"
+    "VERSION": "0.18"
   }
 }

@@ -6,36 +6,30 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       },
       "down": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       },
       "front": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       },
       "left": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       },
       "right": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       },
       "up": {
-        "asset": "asset/Resourpack BMG/Colors/purple.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Colors/purple.png"
+        "asset": "asset/Resourpack BMG/Colors/purple.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d461653a840d85e7855be336133c672a",
+      "setting.json": "04608f43b4eee4c012de84ff410b37df",
       "triggers.bts": ""
     },
-    "VERSION": "0.15"
+    "VERSION": "0.18"
   }
 }

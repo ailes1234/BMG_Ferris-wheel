@@ -1,8 +1,17 @@
 {
   "data": {
-    "AI_attack": {
-      "chaseDistance": 0,
-      "enable": true
+    "actorModel": {
+      "actorName": {
+        "asset": "asset/Actor/character_boy.actor"
+      },
+      "girlactor": {
+        "asset": "asset/Actor/character_girl.actor"
+      },
+      "modelType": "Customize"
+    },
+    "actorName": {
+      "asset": "asset/Actor/character_boy.actor",
+      "selector": "./conf/asset/actor/character_boy.actor"
     },
     "AI_home": {
       "homeSize": 0,
@@ -18,9 +27,7 @@
             "value": 0
           }
         }
-      },
-      "patrolDistance": 0,
-      "patrolMode": "randomPath"
+      }
     },
     "deadAction": {
       "deathHideTime": {
@@ -28,15 +35,23 @@
       },
       "playDeadAction": "die_front"
     },
+    "girlactor": {
+      "asset": "asset/Actor/character_girl.actor",
+      "selector": "./conf/asset/actor/character_girl.actor"
+    },
+    "hurtResistantTime": {
+      "value": 20
+    },
+    "isPlayer": true,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "97867b290477fc85dcd546fc88116a40",
+      "setting.json": "d0307c51ef917711749dd3f00d474d24",
       "triggers.bts": ""
     },
-    "VERSION": "0.15"
+    "VERSION": "0.18"
   }
 }

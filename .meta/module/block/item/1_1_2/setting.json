@@ -6,36 +6,30 @@
     },
     "textures": {
       "back": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       },
       "down": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       },
       "front": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       },
       "left": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       },
       "right": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       },
       "up": {
-        "asset": "asset/Resourpack BMG/Building/brickwhite.png",
-        "selector": "editor/W2M5_DuQuay/asset/Resourpack BMG/Building/brickwhite.png"
+        "asset": "asset/Resourpack BMG/Building/brickwhite.png"
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "0ae65386bd0affd8d52a373124ef02e9",
+      "setting.json": "ce79d7c60b2d952b2d76ce8897fb1b40",
       "triggers.bts": ""
     },
-    "VERSION": "0.15"
+    "VERSION": "0.18"
   }
 }
